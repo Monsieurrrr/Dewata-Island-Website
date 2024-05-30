@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="CSS/register.css">
+    <link rel="icon" type="image/x-icon" href="dewata island.jpeg">
+
+</head>
+<body>
+    <section>
+    <form action="" name="register" onsubmit="return false">
+        <div class="div-img"><img src="dewata island.jpeg" alt=""></div>
+        <div><h1>REGISTER</h1></div>
+        <input class="input-text" type="text" placeholder="Full name" id="name"> <br>
+        <input class="input-text" type="email" placeholder="Email address" id="email"> <br>
+        <input class="input-text" type="password" placeholder="Password" id="password"> <br>
+
+       <div class="radio-btn">
+        <input type="radio" class="input-radio" name="gender" id="he" value="he">
+        <label for="he" style="font-size: 20px">&#9794;</label>
+
+        <input type="radio" class="input-radio" name="gender" id="she" value="she" style="margin-left: 15px;">
+        <label for="she" style="font-size: 20px">&#9792;</label></div>
+
+        <div class="checkbox"><input type="checkbox" name="info-update" id="info-update" value="info-update" style="margin-right: 5px;">
+            <label for="info-update" style="font-size: 12px"> Receive occasional updates and announcements.</label> </div>
+       
+        <div  class="create-btn"><button><a onclick="validate()">Create account</a></button></div>
+        <div><p style="width: 120px;"><a href="login.html">Have an account?</a></p></div>
+    </form>
+</section>
+    
+</body>
+<script src="JS/register.js"></script>
+</html>

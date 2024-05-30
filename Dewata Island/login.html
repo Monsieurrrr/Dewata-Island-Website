@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/login.css">
+    <link rel="icon" type="image/x-icon" href="dewata island.jpeg">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="image" style="background-image: url(log-reg/login.jpeg);"></div>
+            <div class="overlay"></div>
+
+            <div class="text" style="width: 400px">
+                <h1 style="margin: 0 30px;">WELCOME, PLEASE LOGIN TO YOUR ACCOUNT.</h1>
+                <p style="margin-left: 30px; margin-right: 15px; margin-bottom: 0;">try to get more experience about the beauty of Bali and where to spend ur time.</p>
+
+            </div>
+        </div>
+
+        <form action="" name="login" onsubmit="return false">
+            <div class="div-img"><img src="dewata island.jpeg" alt=""></div>
+            <div><h1 style="text-align: center; font-size: 30px; color: rgb(28, 60, 71);">LOGIN</h1></div>
+            <input class="input-text" type="email" placeholder="your email" id="email" ><br>
+            <input class="input-text" type="password" placeholder="password" id="password" >
+            <div class="text-bawah">
+                <div class="checkbox"><input type="checkbox" name="remember" id="remember" style="margin: 0 8px 0 0;">
+                <label for="remember">Remember me</label></div>
+                <div class="forgot"><a href="" class="text-a">Forgot?</a></div>
+            </div >
+            <div class="btn-log"><button><a onclick="validate()">Login</a></button></div>
+            <div><a class="text-a" href="register.html">Create one?</a></div>
+        </form>
+    </section>
+    
+</body>
+<script src="JS/login.js"></script>
+</html>
