@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(250, 250, 240);
+}
+
+header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 25px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    gap: 50px;
+    background-color: rgb(250, 250, 240);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    margin: 0px 20px;
+}
+
+.mid{
+    display: flex;
+    font-size: 22px;
+    /* gap: 50px; */
+    text-align: center;
+    color: rgb(35, 35, 35);
+    font-weight: 500;
+    height: 100px;
+    
+}
+
+
+
+.mid p{
+    padding: 36px 10px;
+    margin: 0;
+}
+
+.normal a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.normal:hover{
+    border-bottom: 5px solid rgb(28, 60, 71);
+}
+.khusus a{
+    text-decoration: none; 
+    color:rgb(230, 141, 85);
+}
+
+
+.right:last-child{
+    margin-left: auto;
+    gap: 10px;
+    display: flex;
+}
+
+.right button{
+    border: none;
+    background-color: transparent;
+    padding: 0 0;
+}
+
+.reg{
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid rgb(28, 60, 71);
+    background-color: rgb(28, 60, 71);
+    padding: 12px 30px;
+    color: rgb(255, 255, 255);
+    margin-right: 50px;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+
+.reg:hover{
+    background-color: unset;
+    color: rgb(28, 60, 71);
+}
+
+.log{
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid rgb(90, 144, 147);
+    padding: 12px 45px;
+    color: rgb(90, 144, 147);
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.log:hover{
+    background-color: rgb(90, 144, 147);
+    color: white;
+}
+
+section{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.header-text h1{
+    font-size: 50px; 
+    color: rgb(28, 60, 71);
+    margin-bottom: 0;
+    
+}
+
+.header-about{
+    display: flex;
+    gap: 80px;
+    margin-bottom: 50px;
+    /* align-items: center; */
+}
+.header-about img{
+width: 560px;
+height: 520px;
+box-shadow:  3px 10px 30px rgba(0, 0, 0, 0.5);
+}
+.header-about h1{
+    width: 600px;
+    font-size: 46px;
+    color: rgb(28, 60, 71);
+    /* margin-top: 0; */
+    /* text-decoration: underline; */
+}
+
+.who-we-are{
+    background-color: rgba(230, 141, 85, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 15px;
+    margin-bottom: 150px;
+}
+.who-we-are h1{
+color: rgb(28, 60, 71);
+font-size: 40px;
+/* margin-top: 5px; */
+}
+.who-we-are p{
+    width: 750px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+
+}
+.visi{
+    display: flex;
+    gap: 110px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.visi img{
+width: 400px;
+height: 470px;
+box-shadow: 205px -60px 0px rgba(193, 193, 193, 0.25);
+}
+.visi-text{
+    width: 550px;
+}
+.visi h1{
+    font-size: 45px;
+    margin-top: 0;
+    color: rgb(230, 141, 85);
+}
+.visi p{
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.misi{
+    display: flex;
+    gap: 110px;
+    align-items: center;
+}
+.misi img{
+width: 400px;
+height: 470px;
+box-shadow: -205px -60px 0px rgba(193, 193, 193, 0.25);
+}
+.misi-text{
+    width: 550px;
+}
+.misi h1{
+    font-size: 45px;
+    margin-top: 0;
+    color: rgb(90, 144, 147)
+}
+.misi p{
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+footer{
+    margin-top: 50px;
+    height: 350px;
+    background-color:rgb(28, 60, 71)
+}
+
+.head-footer{
+    display: flex;
+    padding-left: 70px;
+    padding-top: 20px;
+    gap: 40px;
+    align-items: flex-start;
+}
+.head-footer h1{
+    font-size: 24px;
+    width: 220px;
+    color: white
+
+}
+.head-footer p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.795);
+    line-height: 1.2;
+}
+
+.foot-1{
+    width: 700px;
+    padding-right: 20px ;
+}
+.foot-2{
+    width: 500px;
+}
+
+.footer-text{
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-email input{
+    width: 220px;
+    height: 35px;
+    border: none;
+    padding-left: 10px;
+}
+.input-email button{
+    border: 2px solid white;
+    height: 37px;
+    padding: 0 35px;
+    background-color: unset;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+.input-email button:hover{
+    background-color: white;
+    color: rgb(28, 60, 71)
+}
+
